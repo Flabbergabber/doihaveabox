@@ -2,5 +2,33 @@ runtime: go
 api_version: go1
 
 handlers:
-- url: /.*
+- url: /
+  static_files: www/app/index.html
+  upload: www/app/(.*\.html)
+
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: www/app/\1
+  upload: www/app/(.*\.css)
+
+- url: /img
+  static_dir: www/app/img
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: www/app/\1
+  upload: www/app/(.*\.js)
+
+- url: /partials
+  static_dir: www/app/partials
+
+- url: /bower_components
+  static_dir: www/app/bower_components
+
+- url: /(.*\.json)
+  mime_type: application/json
+  static_files: www/app/\1
+  upload: www/app/(.*\.json)
+
+- url: /api/.*
   script: _go_app

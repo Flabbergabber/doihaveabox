@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcec646a-30d9-47b3-894b-a7fbbbd6d153" name="Default" comment="" />
+    <list default="true" id="bcec646a-30d9-47b3-894b-a7fbbbd6d153" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/data/champs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.go" afterPath="$PROJECT_DIR$/hello.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +18,223 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="hello.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="234">
+              <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+              <folding>
+                <element signature="e#15#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="63" column="40" lean-forward="false" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/app/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="champs.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/data/champs.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="1443" column="6" lean-forward="true" selection-start-line="1443" selection-start-column="6" selection-end-line="1443" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!block;n#Aatrox#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ahri#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Akali#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Alistar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Amumu#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Anivia#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Annie#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ashe#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#AurelionSol#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Azir#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Bard#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Blitzcrank#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Brand#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Braum#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Caitlyn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Camille#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Cassiopeia#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Chogath#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Corki#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Darius#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Diana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#DrMundo#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Draven#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ekko#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Elise#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Evelynn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ezreal#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Fiddlesticks#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Fiora#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Fizz#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Galio#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Gangplank#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Garen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Gnar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Gragas#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Graves#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Hecarim#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Heimerdinger#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Illaoi#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Irelia#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ivern#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Janna#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#JarvanIV#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Jax#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Jayce#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Jhin#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Jinx#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Kalista#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Karma#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Karthus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Kassadin#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Katarina#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Kayle#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Kayn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Kennen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Khazix#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Kindred#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Kled#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#KogMaw#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Leblanc#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#LeeSin#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Leona#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Lissandra#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Lucian#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Lulu#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Lux#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Malphite#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Malzahar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Maokai#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#MasterYi#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#MissFortune#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Mordekaiser#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Morgana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Nami#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Nasus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Nautilus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Nidalee#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Nocturne#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Nunu#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Olaf#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Orianna#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ornn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Pantheon#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Poppy#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Quinn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Rakan#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Rammus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#RekSai#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Renekton#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Rengar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Riven#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Rumble#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ryze#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Sejuani#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Shaco#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Shen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#image#0;n#!!block;n#Shen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Shyvana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Singed#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Sion#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Sivir#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Skarner#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Sona#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Soraka#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Swain#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Syndra#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#TahmKench#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Taliyah#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Talon#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Taric#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Teemo#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Thresh#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Tristana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Trundle#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Tryndamere#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#TwistedFate#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Twitch#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Udyr#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Urgot#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Varus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Vayne#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Veigar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Velkoz#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Vi#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Viktor#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Vladimir#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Volibear#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Warwick#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#MonkeyKing#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Xayah#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Xerath#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#XinZhao#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Yasuo#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Yorick#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Zac#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Zed#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Ziggs#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Zilean#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Zyra#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partial1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/partials/partial1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -23,9 +242,43 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+      <find>name</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;name&quot;</replace>
+    </replaceStrings>
+  </component>
   <component name="GOROOT" path="$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/platform/google_appengine/goroot-1.6" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/app/js/app.js" />
+        <option value="$PROJECT_DIR$/www/app/partials/partial1.html" />
+        <option value="$PROJECT_DIR$/hello.go" />
+        <option value="$PROJECT_DIR$/www/app/champs.json" />
+        <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/www/app/data/champs.json" />
+        <option value="$PROJECT_DIR$/www/app/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/app/js/main.js" />
+        <option value="$PROJECT_DIR$/www/app/index.html" />
+        <option value="$PROJECT_DIR$/www/app/css/app.css" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -33,11 +286,52 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="196" />
+    <option name="y" value="-22" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesCSS</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -63,6 +357,35 @@
               <item name="doihaveabox" type="b2602c69:ProjectViewProjectNode" />
               <item name="doihaveabox" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="doihaveabox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doihaveabox" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doihaveabox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doihaveabox" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doihaveabox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doihaveabox" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doihaveabox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doihaveabox" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doihaveabox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -76,6 +399,13 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="R:\doihaveabox\www\app\data" />
+      <recent name="R:\doihaveabox\www\app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,30 +419,45 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Go Application.doihaveabox/">
+    <configuration name="doihaveabox/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="doihaveabox" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Go Application.doihaveabox/" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +474,317 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/bower_components/html5-boilerplate/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/bower_components/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/partials/partial2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/partials/partial1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/platform/google_appengine/goroot-1.6/src/net/http/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/platform/google_appengine/goroot-1.6/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="416" column="42" lean-forward="false" selection-start-line="416" selection-start-column="42" selection-end-line="416" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/platform/google_appengine/goroot-1.6/src/io/ioutil/ioutil.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/platform/google_appengine/goroot-1.6/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="219" column="5" lean-forward="false" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/bower_components/html5-boilerplate/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/platform/google_appengine/goroot-1.6/src/encoding/json/decode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+          <folding>
+            <element signature="e#15#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="63" column="40" lean-forward="false" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/data/champs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="1443" column="6" lean-forward="true" selection-start-line="1443" selection-start-column="6" selection-end-line="1443" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#Aatrox#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ahri#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Akali#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Alistar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Amumu#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Anivia#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Annie#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ashe#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#AurelionSol#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Azir#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Bard#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Blitzcrank#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Brand#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Braum#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Caitlyn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Camille#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cassiopeia#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Chogath#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Corki#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Darius#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Diana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#DrMundo#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Draven#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ekko#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Elise#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Evelynn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ezreal#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Fiddlesticks#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Fiora#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Fizz#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Galio#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Gangplank#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Garen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Gnar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Gragas#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Graves#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Hecarim#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Heimerdinger#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Illaoi#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Irelia#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ivern#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Janna#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#JarvanIV#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Jax#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Jayce#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Jhin#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Jinx#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Kalista#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Karma#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Karthus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Kassadin#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Katarina#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Kayle#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Kayn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Kennen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Khazix#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Kindred#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Kled#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#KogMaw#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Leblanc#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#LeeSin#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Leona#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Lissandra#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Lucian#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Lulu#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Lux#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Malphite#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Malzahar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Maokai#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#MasterYi#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#MissFortune#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Mordekaiser#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Morgana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Nami#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Nasus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Nautilus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Nidalee#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Nocturne#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Nunu#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Olaf#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Orianna#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ornn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Pantheon#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Poppy#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Quinn#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Rakan#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Rammus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#RekSai#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Renekton#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Rengar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Riven#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Rumble#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ryze#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Sejuani#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Shaco#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Shen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#image#0;n#!!block;n#Shen#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Shyvana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Singed#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Sion#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Sivir#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Skarner#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Sona#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Soraka#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Swain#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Syndra#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#TahmKench#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Taliyah#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Talon#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Taric#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Teemo#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Thresh#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tristana#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Trundle#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tryndamere#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#TwistedFate#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Twitch#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Udyr#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Urgot#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Varus#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Vayne#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Veigar#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Velkoz#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Vi#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Viktor#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Vladimir#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Volibear#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Warwick#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#MonkeyKing#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Xayah#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Xerath#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#XinZhao#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Yasuo#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Yorick#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Zac#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Zed#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Ziggs#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Zilean#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Zyra#0;n#!!block;n#data#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
           <folding />
         </state>
       </provider>
