@@ -17,9 +17,11 @@ angular.module('myApp.controllers', [])
 
               $http.get("/api/doihaveabox?summonerName=" + summonerName)
                   .then(function(response) {
+                      $(".champ").removeClass("earned");
+                      $(".champ").show();
+
                       $.each(response.data, function(index, champMastery){
                             if (champMastery.chestGranted == true) {
-                                $("#champ" + champMastery.championId + " img").addClass("grayscale");
                                 $("#champ" + champMastery.championId).addClass("earned");
                             }
                       });
