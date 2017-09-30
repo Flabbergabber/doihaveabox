@@ -44,7 +44,7 @@ func doihaveabox(w http.ResponseWriter, r *http.Request) {
     client := urlfetch.Client(ctx)
     var riotSummonerApiURL = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/"
     var riotMasteryApiURL = "https://na1.api.riotgames.com/lol/champion-mastery/v3/champion-masteries/by-summoner/"
-    var apiKey = "RGAPI-219fdb89-b870-4ac8-8716-3f1913e185e7"
+    var apiKey = "RGAPI-5ff0b6b5-f936-4769-b682-dda1ed1171ea"
 
     var summonerName = r.URL.Query().Get("summonerName")
 
@@ -53,8 +53,9 @@ func doihaveabox(w http.ResponseWriter, r *http.Request) {
         return
     }
 
-    response, err := client.Get(riotSummonerApiURL + summonerName + "?api_key=" + apiKey)
-    log.Print("Response: " + response.Status)
+    req, err := http.NewRequest("GET", riotSummonerApiURL + summonerName, nil)
+    req.Header.Set("X-Riot-Token", apiKey)
+    response, err := client.Do(req)
     if err != nil {
         fmt.Print(w, err.Error())
         log.Print(err.Error())
@@ -72,7 +73,12 @@ func doihaveabox(w http.ResponseWriter, r *http.Request) {
             log.Print(jsonerr)
         }
 
-        response, err := client.Get(riotMasteryApiURL + strconv.Itoa(summoner.Id) + "?api_key=" + apiKey)
+        log.Printf(strconv.Itoa(summoner.Id))
+
+        req, err := http.NewRequest("GET", riotMasteryApiURL + strconv.Itoa(summoner.Id), nil)
+        req.Header.Set("X-Riot-Token", apiKey)
+        response, err := client.Do(req)
+
         buf = new(bytes.Buffer)
         buf.ReadFrom(response.Body)
         responseStr = buf.String()
@@ -81,8 +87,6 @@ func doihaveabox(w http.ResponseWriter, r *http.Request) {
 
         var summonerMasteryResult SummonerMasteryResult
         jsonerr = json.Unmarshal(j, &summonerMasteryResult)
-
-        log.Print(summonerMasteryResult[0].ChestGranted)
 
         if err != nil {
             log.Fatal(err)

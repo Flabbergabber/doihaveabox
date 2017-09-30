@@ -74,3 +74,8 @@ footer {
   filter: gray; /* IE6-9 */
   filter: grayscale(1); /* W3C */
 }
+
+.errMsg {
+  display: none;
+  color: #ff0000;
+}

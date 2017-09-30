@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
 <head>
-  <title>Bootstrap Example</title>
+  <title>doihaveabox</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
@@ -48,21 +48,32 @@
       <div ng-controller="MainController">
         <div class="row">
           <div class="col-sm-12">
-            <span>Summoner Name: </span><input type="text" ng-model="summonerName" id="txtSummonerName"/>
-        <!--<select>-->
-        <!--<option>NA</option>-->
-        <!--<option>EU</option>-->
-        <!--</select>-->
-            <input type="button" ng-href='#here' ng-click='doihaveabox(summonerName)' value="Do I Have A Box?"/>
+            <div class="row">
+              <div class="col-sm-12 col-xs-12">
+                  <span>Summoner Name: </span>
+                  <input type="text" ng-model="summonerName" id="txtSummonerName" required/>
+                  <input type="button" ng-href='#here' ng-click='doihaveabox(summonerName)' value="Go"/>
+                  <span class="errMsg" id="sumNameEmptyErrMsg">Please enter your summoner name.</span>
+              </div>
+              <div class="col-sm-12 col-xs-12">
+                <div class="pull-left">
+                  <span>Hide Champions with earned boxes: </span>
+                  <input type="checkbox" ng-model="hideEarnedBoxes"  ng-click='toggleHideEarnedBoxes()'/>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-12">
-            <p>{{summonerResult}}</p>
+          <div class="col-sm-12 text-center">
+            <h1><span>Champions with unearned boxes</span></h1>
+          </div>
+          <div class="col-sm-12 text-center">
+            <h3><span>GL, HF!</span></h3>
           </div>
         </div>
         <div class="row" id="divChamps">
-
         </div>
       </div>
     </div>
