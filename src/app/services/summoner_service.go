@@ -1,10 +1,10 @@
 package services
 
 import (
-	"src/app/dto"
-	"src/api/interfaces"
 	"encoding/json"
 	"log"
+	"src/api/interfaces"
+	"src/app/dto"
 )
 
 type SummonerService struct {

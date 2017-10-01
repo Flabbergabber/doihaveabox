@@ -1,6 +1,6 @@
 package util
 
 type RiotAPIHttpResponse struct {
-	Data []byte
+	Data   []byte
 	Status string
 }
