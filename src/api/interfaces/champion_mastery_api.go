@@ -1,7 +1,7 @@
 package interfaces
 
 import (
-	"src/api/util"
+	"api/util"
 )
 
 type ChampionMasteryAPI interface {

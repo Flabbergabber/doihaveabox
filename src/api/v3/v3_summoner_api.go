@@ -1,8 +1,8 @@
 package v3
 
 import (
+	"api/util"
 	"net/http"
-	"src/api/util"
 )
 
 var riotSummonerApiURL = "https://na1.api.riotgames.com/lol/summoner/v3/summoners/"

@@ -1,9 +1,9 @@
 package util
 
 import (
+	"api/config"
 	"bytes"
 	"net/http"
-	"src/api/config"
 )
 
 type RiotAPIHttpRequest struct {

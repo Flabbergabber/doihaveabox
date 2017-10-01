@@ -1,12 +1,12 @@
-package router
+package doihaveabox
 
 import (
+	"api/v3"
+	"app/services"
 	"appengine"
 	"appengine/urlfetch"
 	"fmt"
 	"net/http"
-	"src/api/v3"
-	"src/app/services"
 )
 
 func init() {
