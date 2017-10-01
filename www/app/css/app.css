@@ -69,7 +69,13 @@ footer {
   transform: scale(0.70);
 }
 
-.earned > img{
+.helpGrayImg {
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+}
+
+.earned > img {
   -webkit-filter: grayscale(1); /* Webkit */
   filter: gray; /* IE6-9 */
   filter: grayscale(1); /* W3C */
@@ -78,4 +84,15 @@ footer {
 .errMsg {
   display: none;
   color: #ff0000;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
 }

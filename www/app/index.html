@@ -21,23 +21,47 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
-        <!--<span class="icon-bar"></span>-->
-        <!--<span class="icon-bar"></span>-->
-        <!--<span class="icon-bar"></span>-->
-      <!--</button>-->
       <a class="navbar-brand" href="#">doihaveabox</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <!--<ul class="nav navbar-nav">-->
-        <!--<li class="active"><a href="#">Home</a></li>-->
-        <!--<li><a href="#">About</a></li>-->
-        <!--<li><a href="#">Projects</a></li>-->
-        <!--<li><a href="#">Contact</a></li>-->
-      <!--</ul>-->
       <ul class="nav navbar-nav navbar-right">
-        <!--Right navbar stuff here-->
+        <li ><a data-toggle="modal" data-target="#helpModal" href="#">Help me!</a></li>
       </ul>
+      <div id="helpModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Help me!</h4>
+            </div>
+            <div class="modal-body">
+              <!-- Help goes here -->
+              <div class="row vertical-align">
+                <div class="col-sm-3">
+                  <img src="//ddragon.leagueoflegends.com/cdn/7.19.1/img/champion/Gangplank.png">
+                </div>
+                <div class="col-sm-9">
+                  <span>A colored portrait means: box is available on this champion.</span>
+                </div>
+              </div>
+              <div class="row vertical-align">
+                <div class="col-sm-3">
+                  <img class="helpGrayImg" src="//ddragon.leagueoflegends.com/cdn/7.19.1/img/champion/Thresh.png">
+                </div>
+                <div class="col-sm-9">
+                  <span>A gray portrait means: box been earned on this champion.</span>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 </nav>
@@ -90,8 +114,6 @@
 <script src="js/app.js"></script>
 <script src="js/services.js"></script>
 <script src="js/controllers.js"></script>
-<script src="js/filters.js"></script>
-<script src="js/directives.js"></script>
 </body>
 
 </html>
