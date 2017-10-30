@@ -75,7 +75,7 @@
             <div class="row">
               <div class="col-sm-12 col-xs-12">
                   <span>Summoner Name: </span>
-                  <input type="text" ng-model="summonerName" id="txtSummonerName" required/>
+                  <input type="text" ng-model="summonerName" ng-keypress="enterPressed($event)" id="txtSummonerName" required/>
                   <input type="button" ng-href='#here' ng-click='doihaveabox(summonerName)' value="Go"/>
                   <span class="errMsg" id="sumNameEmptyErrMsg">Please enter your summoner name.</span>
               </div>

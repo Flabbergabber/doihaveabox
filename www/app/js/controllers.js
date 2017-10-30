@@ -4,9 +4,8 @@
 
 angular.module('myApp.controllers', [])
   .controller('MainController', ['$scope', '$http', function($scope, $http) {
-      $scope.hideEarnedBoxes = true;
-      $scope.doihaveabox = function(summonerName) {
 
+      function doihaveabox(summonerName) {
           if (summonerName === undefined)
           {
               $("#sumNameEmptyErrMsg").show();
@@ -21,16 +20,27 @@ angular.module('myApp.controllers', [])
                       $(".champ").show();
 
                       $.each(response.data, function(index, champMastery){
-                            if (champMastery.chestGranted == true) {
-                                $("#champ" + champMastery.championId).addClass("earned");
-                            }
+                          if (champMastery.chestGranted == true) {
+                              $("#champ" + champMastery.championId).addClass("earned");
+                          }
                       });
 
                       if ($scope.hideEarnedBoxes) {
                           $(".earned").hide();
                       }
                   });
-              }
+          }
+      }
+
+      $scope.hideEarnedBoxes = true;
+      $scope.doihaveabox = function(summonerName) {
+          doihaveabox(summonerName);
+      }
+
+      $scope.enterPressed = function(keyEvent) {
+          if (keyEvent.which === 13) { //Enter
+              doihaveabox($scope.summonerName);
+          }
       }
 
       $scope.toggleHideEarnedBoxes = function() {
