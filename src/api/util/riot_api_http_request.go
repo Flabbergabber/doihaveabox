@@ -1,17 +1,17 @@
 package util
 
 import (
-	"api/config"
+	"github.com/Flabbergabber/doihaveabox/src/api/config"
+
 	"bytes"
 	"net/http"
 )
 
 type RiotAPIHttpRequest struct {
 	RequestURL string
-	HttpClient *http.Client
 }
 
-func (riotApiRequest *RiotAPIHttpRequest) Do(requestURL string, httpClient *http.Client) (*RiotAPIHttpResponse, error) {
+func (riotApiRequest *RiotAPIHttpRequest) Do(requestURL string) (*RiotAPIHttpResponse, error) {
 	apiResponse := new(RiotAPIHttpResponse)
 
 	req, err := http.NewRequest("GET", requestURL, nil)
@@ -20,9 +20,11 @@ func (riotApiRequest *RiotAPIHttpRequest) Do(requestURL string, httpClient *http
 		return apiResponse, err
 	}
 
-	var apiKey = config.GetInstance().GetRiotApiKey()
+	apiKey := config.GetInstance().GetRiotApiKey()
 	req.Header.Set("X-Riot-Token", string(apiKey))
-	httpResponse, err := httpClient.Do(req)
+
+	client := &http.Client{}
+	httpResponse, err := client.Do(req)
 
 	var buf bytes.Buffer
 	buf.ReadFrom(httpResponse.Body)

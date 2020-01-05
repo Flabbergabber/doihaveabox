@@ -40,7 +40,7 @@
               <!-- Help goes here -->
               <div class="row vertical-align">
                 <div class="col-sm-3">
-                  <img src="//ddragon.leagueoflegends.com/cdn/7.19.1/img/champion/Gangplank.png">
+                  <img src="//ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Gangplank.png">
                 </div>
                 <div class="col-sm-9">
                   <span>A colored portrait means: box is available on this champion.</span>
@@ -48,10 +48,10 @@
               </div>
               <div class="row vertical-align">
                 <div class="col-sm-3">
-                  <img class="helpGrayImg" src="//ddragon.leagueoflegends.com/cdn/7.19.1/img/champion/Thresh.png">
+                  <img class="helpGrayImg" src="//ddragon.leagueoflegends.com/cdn/9.24.2/img/champion/Thresh.png">
                 </div>
                 <div class="col-sm-9">
-                  <span>A gray portrait means: box been earned on this champion.</span>
+                  <span>A gray portrait means: box has been earned on this champion.</span>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@
 
 <div class="container-fluid text-center">
   <div class="row content">
-    <div class="col-sm-12 text-left">
+    <div class="col-sm-12">
       <div ng-controller="MainController">
         <div class="row">
           <div class="col-sm-12">
@@ -80,24 +80,31 @@
                   <span class="errMsg" id="sumNameEmptyErrMsg">Please enter your summoner name.</span>
               </div>
               <div class="col-sm-12 col-xs-12">
-                <div class="pull-left">
+                <div>
                   <span>Hide Champions with earned boxes: </span>
                   <input type="checkbox" ng-model="hideEarnedBoxes"  ng-click='toggleHideEarnedBoxes()'/>
                 </div>
               </div>
-
+              <div class="col-sm-12 col-xs-12">
+                <div>
+                  <span>Role filter: </span>
+                  <select ng-options="role as role.name for role in roles" ng-model="role" ng-change='changeRoleFilter()'></select>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-12 text-center">
+          <div class="col-sm-12">
             <h1><span>Champions with unearned boxes</span></h1>
           </div>
-          <div class="col-sm-12 text-center">
+          <div class="col-sm-12">
             <h3><span>GL, HF!</span></h3>
           </div>
         </div>
-        <div class="row" id="divChamps">
+        <div class="row">
+          <div class="loader"></div>
+          <div id="divChamps"></div>
         </div>
       </div>
     </div>

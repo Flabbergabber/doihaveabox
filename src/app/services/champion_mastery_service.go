@@ -1,8 +1,9 @@
 package services
 
 import (
-	"api/interfaces"
-	"app/dto"
+	"github.com/Flabbergabber/doihaveabox/src/api/interfaces"
+	"github.com/Flabbergabber/doihaveabox/src/app/dto"
+
 	"encoding/json"
 	"log"
 )

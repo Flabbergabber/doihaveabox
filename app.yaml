@@ -1,5 +1,4 @@
-runtime: go
-api_version: go1
+runtime: go113
 
 handlers:
 - url: /
@@ -31,4 +30,4 @@ handlers:
   upload: www/app/(.*\.json)
 
 - url: /api/.*
-  script: _go_app
+  script: auto

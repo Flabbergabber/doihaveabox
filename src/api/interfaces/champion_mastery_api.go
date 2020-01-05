@@ -1,9 +1,9 @@
 package interfaces
 
 import (
-	"api/util"
+	"github.com/Flabbergabber/doihaveabox/src/api/util"
 )
 
 type ChampionMasteryAPI interface {
-	GetChampionMasteryBySummonerId(summonerId int) (*util.RiotAPIHttpResponse, error)
+	GetChampionMasteryBySummonerId(summonerId string) (*util.RiotAPIHttpResponse, error)
 }

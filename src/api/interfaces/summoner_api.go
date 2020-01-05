@@ -1,7 +1,7 @@
 package interfaces
 
 import (
-	"api/util"
+	"github.com/Flabbergabber/doihaveabox/src/api/util"
 )
 
 type SummonerAPI interface {
